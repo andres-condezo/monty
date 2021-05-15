@@ -13,7 +13,7 @@ void pop(stack_t **stack, unsigned int line_number)
 
 	if (var.stack_len == 0)
 	{
-		dprintf(STDOUT_FILENO,
+		dprintf(STDERR_FILENO,
 			"L%u: can't pop an empty stack\n",
 			line_number);
 		exit(EXIT_FAILURE);
