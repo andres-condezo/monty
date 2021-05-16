@@ -20,6 +20,8 @@ void get_operation(char *op, stack_t **stack, unsigned int line_number)
 		{"add", add},
 		{"nop", nop},
 		{"sub", sub},
+		{"mul", mul},
+		{"mod", mod},
 		{NULL, NULL}
 	};
 
