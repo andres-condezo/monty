@@ -85,5 +85,6 @@ void free_stack(int status, void *arg);
 void fs_close(int status, void *arg);
 void free_line_ptr(int status, void *arg);
 void pchar(stack_t **stack, unsigned int line_number);
+void pstr(stack_t **stack, unsigned int line_number);
 
 #endif /* _MONTY_H_ */
