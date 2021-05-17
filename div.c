@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * mul - divdes top two elements of stack and push result
+ * div - divdes top two elements of stack and push result
  * @stack: double pointer to head of stack
  * @line_number: line number of current operation
  *
